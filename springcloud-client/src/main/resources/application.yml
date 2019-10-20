@@ -1,0 +1,14 @@
+server:
+  port: 8001
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8765/eureka/
+
+spring:
+  application:
+    name: articl
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
