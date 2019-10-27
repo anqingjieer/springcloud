@@ -33,7 +33,7 @@ public class AtomicIntegerDefectDemo {
                     final int currentValue = atomicInteger.get();
                     System.out.println(Thread.currentThread().getName() + " ------ currentValue=" + currentValue);
 
-                    // 这段目的：模拟处理其他业务花费的时间
+                    // 这段目的：模拟处理其他业务花费的时间  数据结构
                     try {
                         Thread.sleep(300);
                     } catch (InterruptedException e) {
