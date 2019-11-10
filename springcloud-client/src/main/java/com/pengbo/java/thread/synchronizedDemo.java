@@ -1,7 +1,7 @@
 package com.pengbo.java.thread;
 
 /**
- * @author 鲁朋博(pengbo.lu @ ucarinc.com)
+ * @author 鲁朋博(17802927165 @ 163.com)
  * @version 1.0
  * @description:synchronized的用法
  *  1.用在实例，进入同步代码之前要要获取当前对象的锁

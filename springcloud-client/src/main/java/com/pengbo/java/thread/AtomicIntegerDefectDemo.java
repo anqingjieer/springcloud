@@ -3,7 +3,7 @@ package com.pengbo.java.thread;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @author 鲁朋博(pengbo.lu @ ucarinc.com)
+ * @author 鲁朋博(17802927165 @ 163.com)
  * @version 1.0
  * @description:演示原子类，多个线程同时操作一个元素，一个操作一旦开始，其他的操作旧不允许进行
  *          演示CAS中的ABA问题操作了，CAS的操作，用期望的值和内存的值进行比较，内存的值一定是属于最新，因为这个是在内存里面了，

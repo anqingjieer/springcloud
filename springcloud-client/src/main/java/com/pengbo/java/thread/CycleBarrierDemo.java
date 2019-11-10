@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.concurrent.*;
 
 /**
- * @author 鲁朋博(pengbo.lu @ ucarinc.com)
+ * @author 鲁朋博(17802927165 @ 163.com)
  * @version 1.0
  * @description:主要用于演示
  *    cyclicBarrier里面有两个重要的参数，partiec标识请求这个数量程序才开始往下进行，后面的线程主要是更高级的，

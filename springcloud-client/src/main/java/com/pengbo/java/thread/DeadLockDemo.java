@@ -7,7 +7,7 @@ import java.lang.management.ThreadInfo;
 import java.lang.management.ThreadMXBean;
 
 /**
- * @author 鲁朋博(pengbo.lu @ ucarinc.com)
+ * @author 鲁朋博(17802927165 @ 163.com)
  * @version 1.0
  * @description:
  * @date 2019/9/22 21:21 创建
@@ -17,7 +17,7 @@ public class DeadLockDemo {
      * @description：main方法有多少线程正在执行
      * @param:
      * @return:
-     * @author 鲁朋博(pengbo.lu@ucarinc.com)
+     * @author 鲁朋博(17802927165 @ 163.com)
      * @date  2019/9/22 21:23 创建
      */
     @Test

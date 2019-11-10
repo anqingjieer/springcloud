@@ -1,7 +1,7 @@
 package com.pengbo.java.dataStructure;
 
 /**
- * @author 鲁朋博(pengbo.lu @ ucarinc.com)
+ * @author 鲁朋博(17802927165 @ 163.com)
  * @version 1.0
  * @description:
  * @date 2019/10/21 22:29 创建

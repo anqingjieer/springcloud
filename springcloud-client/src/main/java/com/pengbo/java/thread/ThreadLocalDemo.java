@@ -1,7 +1,7 @@
 package com.pengbo.java.thread;
 
 /**
- * @author 鲁朋博(pengbo.lu @ ucarinc.com)
+ * @author 鲁朋博(17802927165 @ 163.com)
  * @version 1.0
  * @description:ThreadLocal，保证多个线程访问的变量是不一样的。
  * @date 2019/10/17 20:34 创建

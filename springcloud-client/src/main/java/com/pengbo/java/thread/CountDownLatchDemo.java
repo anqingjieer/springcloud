@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @author 鲁朋博(pengbo.lu @ ucarinc.com)
+ * @author 鲁朋博(17802927165 @ 163.com)
  * @version 1.0
  * @description:  就是CountDownLatch本身还是继承AbstractQueuedSynchronizer这个的，实现的原理类似是将线程的数量减去的方式
  * 用法有一下几种：1.初始化一个线程总数new CountDownLatch(n);每次执行一次，线程数量减一，直到线程数为0时
