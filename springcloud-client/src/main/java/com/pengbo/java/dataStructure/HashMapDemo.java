@@ -1,4 +1,4 @@
-package com.pengbo.java;
+package com.pengbo.java.dataStructure;
 
 import java.util.Collection;
 
@@ -107,7 +107,7 @@ public class HashMapDemo {
         System.out.println("after map.get(si)："+map.get("si"));
         System.out.println("after map.containsKey(si)："+map.containsKey("si"));
         System.out.println("after containsValue(李四)："+map.containsValue("李四"));
-        System.out.println(map.replace("si", "李四2"));
+        System.out.println(map.remove("si"));
         System.out.println("after map.replace(si, 李四2):"+map);
     }
 

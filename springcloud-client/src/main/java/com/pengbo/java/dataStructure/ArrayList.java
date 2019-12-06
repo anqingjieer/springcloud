@@ -1,6 +1,5 @@
-package com.pengbo.java;
+package com.pengbo.java.dataStructure;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 ;
@@ -188,7 +187,7 @@ public class ArrayList<E> extends AbstractList<E>
      */
     @Override
     public boolean contains(Object o) {
-        //indexOf()方法：返回此列表中指定元素的首次出现的索引，如果此列表不包含此元素，则为-1 
+        //indexOf()方法：返回此列表中指定元素的首次出现的索引，如果此列表不包含此元素，则为-1
         return indexOf(o) >= 0;
     }
 
@@ -244,7 +243,7 @@ public class ArrayList<E> extends AbstractList<E>
             return v;
         } catch (CloneNotSupportedException e) {
             // 这不应该发生，因为我们是可以克隆的
-            throw new InternalError(e);
+            throw new InternalError(e.toString());
         }
     }
 
@@ -345,7 +344,7 @@ public class ArrayList<E> extends AbstractList<E>
             System.arraycopy(elementData, index + 1, elementData, index,
                     numMoved);
         elementData[--size] = null; // clear to let GC do its work
-        //从列表中删除的元素 
+        //从列表中删除的元素
         return oldValue;
     }
 

@@ -1,4 +1,4 @@
-package com.pengbo.java;
+package com.pengbo.java.dataStructure;
 
 
 
@@ -36,7 +36,7 @@ public class ArrayListDemo {
      */
     @Test
     public  void main() {
-        ArrayList<Integer> arrayList = new ArrayList<Integer>();
+        com.pengbo.java.dataStructure.ArrayList<Integer> arrayList = new ArrayList<Integer>();
 
         System.out.printf("Before add:arrayList.size() = %d\n",arrayList.size());
 
